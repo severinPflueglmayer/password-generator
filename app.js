@@ -11,4 +11,4 @@ function generatePassword(length = 10) {
 }
 
 
-MediaSourceHandle.exports = generatePassword();
+module.exports = generatePassword;
